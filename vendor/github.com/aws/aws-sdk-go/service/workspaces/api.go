@@ -67,23 +67,23 @@ func (c *WorkSpaces) AssociateIpGroupsRequest(input *AssociateIpGroupsInput) (re
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation AssociateIpGroups for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeOperationNotSupportedException "OperationNotSupportedException"
+//   * OperationNotSupportedException
 //   This operation is not supported.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/AssociateIpGroups
@@ -165,20 +165,20 @@ func (c *WorkSpaces) AuthorizeIpRulesRequest(input *AuthorizeIpRulesInput) (req 
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation AuthorizeIpRules for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/AuthorizeIpRules
@@ -256,26 +256,26 @@ func (c *WorkSpaces) CopyWorkspaceImageRequest(input *CopyWorkspaceImageInput) (
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation CopyWorkspaceImage for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+// Returned Error Types:
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeResourceAlreadyExistsException "ResourceAlreadyExistsException"
+//   * ResourceAlreadyExistsException
 //   The specified resource already exists.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeResourceUnavailableException "ResourceUnavailableException"
+//   * ResourceUnavailableException
 //   The specified resource is not available.
 //
-//   * ErrCodeOperationNotSupportedException "OperationNotSupportedException"
+//   * OperationNotSupportedException
 //   This operation is not supported.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/CopyWorkspaceImage
@@ -365,20 +365,20 @@ func (c *WorkSpaces) CreateIpGroupRequest(input *CreateIpGroupInput) (req *reque
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation CreateIpGroup for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeResourceAlreadyExistsException "ResourceAlreadyExistsException"
+//   * ResourceAlreadyExistsException
 //   The specified resource already exists.
 //
-//   * ErrCodeResourceCreationFailedException "ResourceCreationFailedException"
+//   * ResourceCreationFailedException
 //   The resource could not be created.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/CreateIpGroup
@@ -457,14 +457,14 @@ func (c *WorkSpaces) CreateTagsRequest(input *CreateTagsInput) (req *request.Req
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation CreateTags for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+// Returned Error Types:
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/CreateTags
@@ -544,11 +544,11 @@ func (c *WorkSpaces) CreateWorkspacesRequest(input *CreateWorkspacesInput) (req 
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation CreateWorkspaces for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+// Returned Error Types:
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/CreateWorkspaces
@@ -629,17 +629,17 @@ func (c *WorkSpaces) DeleteIpGroupRequest(input *DeleteIpGroupInput) (req *reque
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DeleteIpGroup for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeResourceAssociatedException "ResourceAssociatedException"
+//   * ResourceAssociatedException
 //   The resource is associated with a directory.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DeleteIpGroup
@@ -718,11 +718,11 @@ func (c *WorkSpaces) DeleteTagsRequest(input *DeleteTagsInput) (req *request.Req
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DeleteTags for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+// Returned Error Types:
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DeleteTags
@@ -793,8 +793,8 @@ func (c *WorkSpaces) DeleteWorkspaceImageRequest(input *DeleteWorkspaceImageInpu
 // DeleteWorkspaceImage API operation for Amazon WorkSpaces.
 //
 // Deletes the specified image from your account. To delete an image, you must
-// first delete any bundles that are associated with the image and un-share
-// the image if it is shared with other accounts.
+// first delete any bundles that are associated with the image and unshare the
+// image if it is shared with other accounts.
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -803,14 +803,14 @@ func (c *WorkSpaces) DeleteWorkspaceImageRequest(input *DeleteWorkspaceImageInpu
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DeleteWorkspaceImage for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceAssociatedException "ResourceAssociatedException"
+// Returned Error Types:
+//   * ResourceAssociatedException
 //   The resource is associated with a directory.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DeleteWorkspaceImage
@@ -891,20 +891,20 @@ func (c *WorkSpaces) DeregisterWorkspaceDirectoryRequest(input *DeregisterWorksp
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DeregisterWorkspaceDirectory for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+// Returned Error Types:
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeOperationNotSupportedException "OperationNotSupportedException"
+//   * OperationNotSupportedException
 //   This operation is not supported.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DeregisterWorkspaceDirectory
@@ -983,8 +983,8 @@ func (c *WorkSpaces) DescribeAccountRequest(input *DescribeAccountInput) (req *r
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeAccount for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+// Returned Error Types:
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeAccount
@@ -1063,8 +1063,8 @@ func (c *WorkSpaces) DescribeAccountModificationsRequest(input *DescribeAccountM
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeAccountModifications for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+// Returned Error Types:
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeAccountModifications
@@ -1142,14 +1142,14 @@ func (c *WorkSpaces) DescribeClientPropertiesRequest(input *DescribeClientProper
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeClientProperties for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeClientProperties
@@ -1227,11 +1227,11 @@ func (c *WorkSpaces) DescribeIpGroupsRequest(input *DescribeIpGroupsInput) (req 
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeIpGroups for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeIpGroups
@@ -1309,8 +1309,8 @@ func (c *WorkSpaces) DescribeTagsRequest(input *DescribeTagsInput) (req *request
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeTags for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+// Returned Error Types:
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeTags
@@ -1396,8 +1396,8 @@ func (c *WorkSpaces) DescribeWorkspaceBundlesRequest(input *DescribeWorkspaceBun
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeWorkspaceBundles for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaceBundles
@@ -1533,8 +1533,8 @@ func (c *WorkSpaces) DescribeWorkspaceDirectoriesRequest(input *DescribeWorkspac
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeWorkspaceDirectories for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaceDirectories
@@ -1611,6 +1611,92 @@ func (c *WorkSpaces) DescribeWorkspaceDirectoriesPagesWithContext(ctx aws.Contex
 	return p.Err()
 }
 
+const opDescribeWorkspaceImagePermissions = "DescribeWorkspaceImagePermissions"
+
+// DescribeWorkspaceImagePermissionsRequest generates a "aws/request.Request" representing the
+// client's request for the DescribeWorkspaceImagePermissions operation. The "output" return
+// value will be populated with the request's response once the request completes
+// successfully.
+//
+// Use "Send" method on the returned Request to send the API call to the service.
+// the "output" return value is not valid until after Send returns without error.
+//
+// See DescribeWorkspaceImagePermissions for more information on using the DescribeWorkspaceImagePermissions
+// API call, and error handling.
+//
+// This method is useful when you want to inject custom logic or configuration
+// into the SDK's request lifecycle. Such as custom headers, or retry logic.
+//
+//
+//    // Example sending a request using the DescribeWorkspaceImagePermissionsRequest method.
+//    req, resp := client.DescribeWorkspaceImagePermissionsRequest(params)
+//
+//    err := req.Send()
+//    if err == nil { // resp is now filled
+//        fmt.Println(resp)
+//    }
+//
+// See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaceImagePermissions
+func (c *WorkSpaces) DescribeWorkspaceImagePermissionsRequest(input *DescribeWorkspaceImagePermissionsInput) (req *request.Request, output *DescribeWorkspaceImagePermissionsOutput) {
+	op := &request.Operation{
+		Name:       opDescribeWorkspaceImagePermissions,
+		HTTPMethod: "POST",
+		HTTPPath:   "/",
+	}
+
+	if input == nil {
+		input = &DescribeWorkspaceImagePermissionsInput{}
+	}
+
+	output = &DescribeWorkspaceImagePermissionsOutput{}
+	req = c.newRequest(op, input, output)
+	return
+}
+
+// DescribeWorkspaceImagePermissions API operation for Amazon WorkSpaces.
+//
+// Describes the permissions that the owner of an image has granted to other
+// AWS accounts for an image.
+//
+// Returns awserr.Error for service API and SDK errors. Use runtime type assertions
+// with awserr.Error's Code and Message methods to get detailed information about
+// the error.
+//
+// See the AWS API reference guide for Amazon WorkSpaces's
+// API operation DescribeWorkspaceImagePermissions for usage and error information.
+//
+// Returned Error Types:
+//   * ResourceNotFoundException
+//   The resource could not be found.
+//
+//   * AccessDeniedException
+//   The user is not authorized to access a resource.
+//
+//   * InvalidParameterValuesException
+//   One or more parameter values are not valid.
+//
+// See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaceImagePermissions
+func (c *WorkSpaces) DescribeWorkspaceImagePermissions(input *DescribeWorkspaceImagePermissionsInput) (*DescribeWorkspaceImagePermissionsOutput, error) {
+	req, out := c.DescribeWorkspaceImagePermissionsRequest(input)
+	return out, req.Send()
+}
+
+// DescribeWorkspaceImagePermissionsWithContext is the same as DescribeWorkspaceImagePermissions with the addition of
+// the ability to pass a context and additional request options.
+//
+// See DescribeWorkspaceImagePermissions for details on how to use this API operation.
+//
+// The context must be non-nil and will be used for request cancellation. If
+// the context is nil a panic will occur. In the future the SDK may create
+// sub-contexts for http.Requests. See https://golang.org/pkg/context/
+// for more information on using Contexts.
+func (c *WorkSpaces) DescribeWorkspaceImagePermissionsWithContext(ctx aws.Context, input *DescribeWorkspaceImagePermissionsInput, opts ...request.Option) (*DescribeWorkspaceImagePermissionsOutput, error) {
+	req, out := c.DescribeWorkspaceImagePermissionsRequest(input)
+	req.SetContext(ctx)
+	req.ApplyOptions(opts...)
+	return out, req.Send()
+}
+
 const opDescribeWorkspaceImages = "DescribeWorkspaceImages"
 
 // DescribeWorkspaceImagesRequest generates a "aws/request.Request" representing the
@@ -1665,8 +1751,8 @@ func (c *WorkSpaces) DescribeWorkspaceImagesRequest(input *DescribeWorkspaceImag
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeWorkspaceImages for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+// Returned Error Types:
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaceImages
@@ -1744,14 +1830,14 @@ func (c *WorkSpaces) DescribeWorkspaceSnapshotsRequest(input *DescribeWorkspaceS
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeWorkspaceSnapshots for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaceSnapshots
@@ -1838,11 +1924,11 @@ func (c *WorkSpaces) DescribeWorkspacesRequest(input *DescribeWorkspacesInput) (
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeWorkspaces for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceUnavailableException "ResourceUnavailableException"
+//   * ResourceUnavailableException
 //   The specified resource is not available.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspaces
@@ -1972,8 +2058,8 @@ func (c *WorkSpaces) DescribeWorkspacesConnectionStatusRequest(input *DescribeWo
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DescribeWorkspacesConnectionStatus for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DescribeWorkspacesConnectionStatus
@@ -2052,17 +2138,17 @@ func (c *WorkSpaces) DisassociateIpGroupsRequest(input *DisassociateIpGroupsInpu
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation DisassociateIpGroups for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/DisassociateIpGroups
@@ -2142,23 +2228,23 @@ func (c *WorkSpaces) ImportWorkspaceImageRequest(input *ImportWorkspaceImageInpu
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ImportWorkspaceImage for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+// Returned Error Types:
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeResourceAlreadyExistsException "ResourceAlreadyExistsException"
+//   * ResourceAlreadyExistsException
 //   The specified resource already exists.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeOperationNotSupportedException "OperationNotSupportedException"
+//   * OperationNotSupportedException
 //   This operation is not supported.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ImportWorkspaceImage
@@ -2243,11 +2329,11 @@ func (c *WorkSpaces) ListAvailableManagementCidrRangesRequest(input *ListAvailab
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ListAvailableManagementCidrRanges for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ListAvailableManagementCidrRanges
@@ -2267,6 +2353,112 @@ func (c *WorkSpaces) ListAvailableManagementCidrRanges(input *ListAvailableManag
 // for more information on using Contexts.
 func (c *WorkSpaces) ListAvailableManagementCidrRangesWithContext(ctx aws.Context, input *ListAvailableManagementCidrRangesInput, opts ...request.Option) (*ListAvailableManagementCidrRangesOutput, error) {
 	req, out := c.ListAvailableManagementCidrRangesRequest(input)
+	req.SetContext(ctx)
+	req.ApplyOptions(opts...)
+	return out, req.Send()
+}
+
+const opMigrateWorkspace = "MigrateWorkspace"
+
+// MigrateWorkspaceRequest generates a "aws/request.Request" representing the
+// client's request for the MigrateWorkspace operation. The "output" return
+// value will be populated with the request's response once the request completes
+// successfully.
+//
+// Use "Send" method on the returned Request to send the API call to the service.
+// the "output" return value is not valid until after Send returns without error.
+//
+// See MigrateWorkspace for more information on using the MigrateWorkspace
+// API call, and error handling.
+//
+// This method is useful when you want to inject custom logic or configuration
+// into the SDK's request lifecycle. Such as custom headers, or retry logic.
+//
+//
+//    // Example sending a request using the MigrateWorkspaceRequest method.
+//    req, resp := client.MigrateWorkspaceRequest(params)
+//
+//    err := req.Send()
+//    if err == nil { // resp is now filled
+//        fmt.Println(resp)
+//    }
+//
+// See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/MigrateWorkspace
+func (c *WorkSpaces) MigrateWorkspaceRequest(input *MigrateWorkspaceInput) (req *request.Request, output *MigrateWorkspaceOutput) {
+	op := &request.Operation{
+		Name:       opMigrateWorkspace,
+		HTTPMethod: "POST",
+		HTTPPath:   "/",
+	}
+
+	if input == nil {
+		input = &MigrateWorkspaceInput{}
+	}
+
+	output = &MigrateWorkspaceOutput{}
+	req = c.newRequest(op, input, output)
+	return
+}
+
+// MigrateWorkspace API operation for Amazon WorkSpaces.
+//
+// Migrates a WorkSpace from one operating system or bundle type to another,
+// while retaining the data on the user volume.
+//
+// The migration process recreates the WorkSpace by using a new root volume
+// from the target bundle image and the user volume from the last available
+// snapshot of the original WorkSpace. During migration, the original D:\Users\%USERNAME%
+// user profile folder is renamed to D:\Users\%USERNAME%MMddyyTHHmmss%.NotMigrated.
+// A new D:\Users\%USERNAME%\ folder is generated by the new OS. Certain files
+// in the old user profile are moved to the new user profile.
+//
+// For available migration scenarios, details about what happens during migration,
+// and best practices, see Migrate a WorkSpace (https://docs.aws.amazon.com/workspaces/latest/adminguide/migrate-workspaces.html).
+//
+// Returns awserr.Error for service API and SDK errors. Use runtime type assertions
+// with awserr.Error's Code and Message methods to get detailed information about
+// the error.
+//
+// See the AWS API reference guide for Amazon WorkSpaces's
+// API operation MigrateWorkspace for usage and error information.
+//
+// Returned Error Types:
+//   * InvalidParameterValuesException
+//   One or more parameter values are not valid.
+//
+//   * ResourceNotFoundException
+//   The resource could not be found.
+//
+//   * AccessDeniedException
+//   The user is not authorized to access a resource.
+//
+//   * OperationNotSupportedException
+//   This operation is not supported.
+//
+//   * OperationInProgressException
+//   The properties of this WorkSpace are currently being modified. Try again
+//   in a moment.
+//
+//   * ResourceUnavailableException
+//   The specified resource is not available.
+//
+// See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/MigrateWorkspace
+func (c *WorkSpaces) MigrateWorkspace(input *MigrateWorkspaceInput) (*MigrateWorkspaceOutput, error) {
+	req, out := c.MigrateWorkspaceRequest(input)
+	return out, req.Send()
+}
+
+// MigrateWorkspaceWithContext is the same as MigrateWorkspace with the addition of
+// the ability to pass a context and additional request options.
+//
+// See MigrateWorkspace for details on how to use this API operation.
+//
+// The context must be non-nil and will be used for request cancellation. If
+// the context is nil a panic will occur. In the future the SDK may create
+// sub-contexts for http.Requests. See https://golang.org/pkg/context/
+// for more information on using Contexts.
+func (c *WorkSpaces) MigrateWorkspaceWithContext(ctx aws.Context, input *MigrateWorkspaceInput, opts ...request.Option) (*MigrateWorkspaceOutput, error) {
+	req, out := c.MigrateWorkspaceRequest(input)
 	req.SetContext(ctx)
 	req.ApplyOptions(opts...)
 	return out, req.Send()
@@ -2327,20 +2519,20 @@ func (c *WorkSpaces) ModifyAccountRequest(input *ModifyAccountInput) (req *reque
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifyAccount for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeResourceUnavailableException "ResourceUnavailableException"
+//   * ResourceUnavailableException
 //   The specified resource is not available.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifyAccount
@@ -2419,14 +2611,14 @@ func (c *WorkSpaces) ModifyClientPropertiesRequest(input *ModifyClientProperties
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifyClientProperties for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifyClientProperties
@@ -2507,14 +2699,14 @@ func (c *WorkSpaces) ModifySelfservicePermissionsRequest(input *ModifySelfservic
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifySelfservicePermissions for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+// Returned Error Types:
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifySelfservicePermissions
@@ -2585,7 +2777,7 @@ func (c *WorkSpaces) ModifyWorkspaceAccessPropertiesRequest(input *ModifyWorkspa
 // ModifyWorkspaceAccessProperties API operation for Amazon WorkSpaces.
 //
 // Specifies which devices and operating systems users can use to access their
-// Workspaces. For more information, see Control Device Access (https://docs.aws.amazon.com/workspaces/latest/adminguide/update-directory-details.html#control-device-access).
+// WorkSpaces. For more information, see Control Device Access (https://docs.aws.amazon.com/workspaces/latest/adminguide/update-directory-details.html#control-device-access).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -2594,11 +2786,11 @@ func (c *WorkSpaces) ModifyWorkspaceAccessPropertiesRequest(input *ModifyWorkspa
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifyWorkspaceAccessProperties for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+// Returned Error Types:
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifyWorkspaceAccessProperties
@@ -2677,14 +2869,14 @@ func (c *WorkSpaces) ModifyWorkspaceCreationPropertiesRequest(input *ModifyWorks
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifyWorkspaceCreationProperties for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+// Returned Error Types:
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifyWorkspaceCreationProperties
@@ -2754,7 +2946,9 @@ func (c *WorkSpaces) ModifyWorkspacePropertiesRequest(input *ModifyWorkspaceProp
 
 // ModifyWorkspaceProperties API operation for Amazon WorkSpaces.
 //
-// Modifies the specified WorkSpace properties.
+// Modifies the specified WorkSpace properties. For important information about
+// how to modify the size of the root and user volumes, see Modify a WorkSpace
+// (https://docs.aws.amazon.com/workspaces/latest/adminguide/modify-workspaces.html).
 //
 // Returns awserr.Error for service API and SDK errors. Use runtime type assertions
 // with awserr.Error's Code and Message methods to get detailed information about
@@ -2763,29 +2957,29 @@ func (c *WorkSpaces) ModifyWorkspacePropertiesRequest(input *ModifyWorkspaceProp
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifyWorkspaceProperties for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeOperationInProgressException "OperationInProgressException"
+//   * OperationInProgressException
 //   The properties of this WorkSpace are currently being modified. Try again
 //   in a moment.
 //
-//   * ErrCodeUnsupportedWorkspaceConfigurationException "UnsupportedWorkspaceConfigurationException"
+//   * UnsupportedWorkspaceConfigurationException
 //   The configuration of this WorkSpace is not supported for this operation.
 //   For more information, see Required Configuration and Service Components for
 //   WorkSpaces (https://docs.aws.amazon.com/workspaces/latest/adminguide/required-service-components.html).
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeResourceUnavailableException "ResourceUnavailableException"
+//   * ResourceUnavailableException
 //   The specified resource is not available.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifyWorkspaceProperties
@@ -2870,14 +3064,14 @@ func (c *WorkSpaces) ModifyWorkspaceStateRequest(input *ModifyWorkspaceStateInpu
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation ModifyWorkspaceState for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/ModifyWorkspaceState
@@ -3026,7 +3220,8 @@ func (c *WorkSpaces) RebuildWorkspacesRequest(input *RebuildWorkspacesInput) (re
 //
 // Rebuilds the specified WorkSpace.
 //
-// You cannot rebuild a WorkSpace unless its state is AVAILABLE, ERROR, or UNHEALTHY.
+// You cannot rebuild a WorkSpace unless its state is AVAILABLE, ERROR, UNHEALTHY,
+// STOPPED, or REBOOTING.
 //
 // Rebuilding a WorkSpace is a potentially destructive action that can result
 // in the loss of data. For more information, see Rebuild a WorkSpace (https://docs.aws.amazon.com/workspaces/latest/adminguide/reset-workspace.html).
@@ -3120,35 +3315,35 @@ func (c *WorkSpaces) RegisterWorkspaceDirectoryRequest(input *RegisterWorkspaceD
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation RegisterWorkspaceDirectory for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
-//   * ErrCodeWorkspacesDefaultRoleNotFoundException "WorkspacesDefaultRoleNotFoundException"
+//   * WorkspacesDefaultRoleNotFoundException
 //   The workspaces_DefaultRole role could not be found. If this is the first
 //   time you are registering a directory, you will need to create the workspaces_DefaultRole
 //   role before you can register a directory. For more information, see Creating
 //   the workspaces_DefaultRole Role (https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-access-control.html#create-default-role).
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeUnsupportedNetworkConfigurationException "UnsupportedNetworkConfigurationException"
+//   * UnsupportedNetworkConfigurationException
 //   The configuration of this network is not supported for this operation, or
 //   your network configuration conflicts with the Amazon WorkSpaces management
 //   network IP range. For more information, see Configure a VPC for Amazon WorkSpaces
 //   (https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-vpc.html).
 //
-//   * ErrCodeOperationNotSupportedException "OperationNotSupportedException"
+//   * OperationNotSupportedException
 //   This operation is not supported.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/RegisterWorkspaceDirectory
@@ -3220,7 +3415,8 @@ func (c *WorkSpaces) RestoreWorkspaceRequest(input *RestoreWorkspaceInput) (req 
 //
 // Restores the specified WorkSpace to its last known healthy state.
 //
-// You cannot restore a WorkSpace unless its state is AVAILABLE, ERROR, or UNHEALTHY.
+// You cannot restore a WorkSpace unless its state is AVAILABLE, ERROR, UNHEALTHY,
+// or STOPPED.
 //
 // Restoring a WorkSpace is a potentially destructive action that can result
 // in the loss of data. For more information, see Restore a WorkSpace (https://docs.aws.amazon.com/workspaces/latest/adminguide/restore-workspace.html).
@@ -3235,14 +3431,14 @@ func (c *WorkSpaces) RestoreWorkspaceRequest(input *RestoreWorkspaceInput) (req 
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation RestoreWorkspace for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/RestoreWorkspace
@@ -3321,17 +3517,17 @@ func (c *WorkSpaces) RevokeIpRulesRequest(input *RevokeIpRulesInput) (req *reque
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation RevokeIpRules for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/RevokeIpRules
@@ -3648,20 +3844,20 @@ func (c *WorkSpaces) UpdateRulesOfIpGroupRequest(input *UpdateRulesOfIpGroupInpu
 // See the AWS API reference guide for Amazon WorkSpaces's
 // API operation UpdateRulesOfIpGroup for usage and error information.
 //
-// Returned Error Codes:
-//   * ErrCodeInvalidParameterValuesException "InvalidParameterValuesException"
+// Returned Error Types:
+//   * InvalidParameterValuesException
 //   One or more parameter values are not valid.
 //
-//   * ErrCodeResourceNotFoundException "ResourceNotFoundException"
+//   * ResourceNotFoundException
 //   The resource could not be found.
 //
-//   * ErrCodeResourceLimitExceededException "ResourceLimitExceededException"
+//   * ResourceLimitExceededException
 //   Your resource limits have been exceeded.
 //
-//   * ErrCodeInvalidResourceStateException "InvalidResourceStateException"
+//   * InvalidResourceStateException
 //   The state of the resource is not valid for this operation.
 //
-//   * ErrCodeAccessDeniedException "AccessDeniedException"
+//   * AccessDeniedException
 //   The user is not authorized to access a resource.
 //
 // See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/UpdateRulesOfIpGroup
@@ -3684,6 +3880,165 @@ func (c *WorkSpaces) UpdateRulesOfIpGroupWithContext(ctx aws.Context, input *Upd
 	req.SetContext(ctx)
 	req.ApplyOptions(opts...)
 	return out, req.Send()
+}
+
+const opUpdateWorkspaceImagePermission = "UpdateWorkspaceImagePermission"
+
+// UpdateWorkspaceImagePermissionRequest generates a "aws/request.Request" representing the
+// client's request for the UpdateWorkspaceImagePermission operation. The "output" return
+// value will be populated with the request's response once the request completes
+// successfully.
+//
+// Use "Send" method on the returned Request to send the API call to the service.
+// the "output" return value is not valid until after Send returns without error.
+//
+// See UpdateWorkspaceImagePermission for more information on using the UpdateWorkspaceImagePermission
+// API call, and error handling.
+//
+// This method is useful when you want to inject custom logic or configuration
+// into the SDK's request lifecycle. Such as custom headers, or retry logic.
+//
+//
+//    // Example sending a request using the UpdateWorkspaceImagePermissionRequest method.
+//    req, resp := client.UpdateWorkspaceImagePermissionRequest(params)
+//
+//    err := req.Send()
+//    if err == nil { // resp is now filled
+//        fmt.Println(resp)
+//    }
+//
+// See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/UpdateWorkspaceImagePermission
+func (c *WorkSpaces) UpdateWorkspaceImagePermissionRequest(input *UpdateWorkspaceImagePermissionInput) (req *request.Request, output *UpdateWorkspaceImagePermissionOutput) {
+	op := &request.Operation{
+		Name:       opUpdateWorkspaceImagePermission,
+		HTTPMethod: "POST",
+		HTTPPath:   "/",
+	}
+
+	if input == nil {
+		input = &UpdateWorkspaceImagePermissionInput{}
+	}
+
+	output = &UpdateWorkspaceImagePermissionOutput{}
+	req = c.newRequest(op, input, output)
+	req.Handlers.Unmarshal.Swap(jsonrpc.UnmarshalHandler.Name, protocol.UnmarshalDiscardBodyHandler)
+	return
+}
+
+// UpdateWorkspaceImagePermission API operation for Amazon WorkSpaces.
+//
+// Shares or unshares an image with one account by specifying whether that account
+// has permission to copy the image. If the copy image permission is granted,
+// the image is shared with that account. If the copy image permission is revoked,
+// the image is unshared with the account.
+//
+//    * To delete an image that has been shared, you must unshare the image
+//    before you delete it.
+//
+//    * Sharing Bring Your Own License (BYOL) images across AWS accounts isn't
+//    supported at this time in the AWS GovCloud (US-West) Region. To share
+//    BYOL images across accounts in the AWS GovCloud (US-West) Region, contact
+//    AWS Support.
+//
+// Returns awserr.Error for service API and SDK errors. Use runtime type assertions
+// with awserr.Error's Code and Message methods to get detailed information about
+// the error.
+//
+// See the AWS API reference guide for Amazon WorkSpaces's
+// API operation UpdateWorkspaceImagePermission for usage and error information.
+//
+// Returned Error Types:
+//   * ResourceNotFoundException
+//   The resource could not be found.
+//
+//   * ResourceUnavailableException
+//   The specified resource is not available.
+//
+//   * AccessDeniedException
+//   The user is not authorized to access a resource.
+//
+//   * InvalidParameterValuesException
+//   One or more parameter values are not valid.
+//
+//   * OperationNotSupportedException
+//   This operation is not supported.
+//
+// See also, https://docs.aws.amazon.com/goto/WebAPI/workspaces-2015-04-08/UpdateWorkspaceImagePermission
+func (c *WorkSpaces) UpdateWorkspaceImagePermission(input *UpdateWorkspaceImagePermissionInput) (*UpdateWorkspaceImagePermissionOutput, error) {
+	req, out := c.UpdateWorkspaceImagePermissionRequest(input)
+	return out, req.Send()
+}
+
+// UpdateWorkspaceImagePermissionWithContext is the same as UpdateWorkspaceImagePermission with the addition of
+// the ability to pass a context and additional request options.
+//
+// See UpdateWorkspaceImagePermission for details on how to use this API operation.
+//
+// The context must be non-nil and will be used for request cancellation. If
+// the context is nil a panic will occur. In the future the SDK may create
+// sub-contexts for http.Requests. See https://golang.org/pkg/context/
+// for more information on using Contexts.
+func (c *WorkSpaces) UpdateWorkspaceImagePermissionWithContext(ctx aws.Context, input *UpdateWorkspaceImagePermissionInput, opts ...request.Option) (*UpdateWorkspaceImagePermissionOutput, error) {
+	req, out := c.UpdateWorkspaceImagePermissionRequest(input)
+	req.SetContext(ctx)
+	req.ApplyOptions(opts...)
+	return out, req.Send()
+}
+
+// The user is not authorized to access a resource.
+type AccessDeniedException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s AccessDeniedException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s AccessDeniedException) GoString() string {
+	return s.String()
+}
+
+func newErrorAccessDeniedException(v protocol.ResponseMetadata) error {
+	return &AccessDeniedException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *AccessDeniedException) Code() string {
+	return "AccessDeniedException"
+}
+
+// Message returns the exception's message.
+func (s *AccessDeniedException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *AccessDeniedException) OrigErr() error {
+	return nil
+}
+
+func (s *AccessDeniedException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *AccessDeniedException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *AccessDeniedException) RequestID() string {
+	return s.RespMetadata.RequestID
 }
 
 // Describes a modification to the configuration of Bring Your Own License (BYOL)
@@ -4210,7 +4565,9 @@ type CreateTagsInput struct {
 	// ResourceId is a required field
 	ResourceId *string `min:"1" type:"string" required:"true"`
 
-	// The tags. Each WorkSpaces resource can have a maximum of 50 tags.
+	// The tags. Each WorkSpaces resource can have a maximum of 50 tags. If you
+	// want to add new tags to a set of existing tags, you must submit all of the
+	// existing tags along with the new ones.
 	//
 	// Tags is a required field
 	Tags []*Tag `type:"list" required:"true"`
@@ -4373,23 +4730,24 @@ func (s *CreateWorkspacesOutput) SetPendingRequests(v []*Workspace) *CreateWorks
 type DefaultWorkspaceCreationProperties struct {
 	_ struct{} `type:"structure"`
 
-	// The identifier of any security groups to apply to WorkSpaces when they are
-	// created.
+	// The identifier of the default security group to apply to WorkSpaces when
+	// they are created. For more information, see Security Groups for Your WorkSpaces
+	// (https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-security-groups.html).
 	CustomSecurityGroupId *string `min:"11" type:"string"`
 
 	// The organizational unit (OU) in the directory for the WorkSpace machine accounts.
 	DefaultOu *string `type:"string"`
 
-	// Specifies whether to automatically assign a public IP address to WorkSpaces
-	// in this directory by default. If enabled, the public IP address allows outbound
-	// internet access from your WorkSpaces when you’re using an internet gateway
-	// in the Amazon VPC in which your WorkSpaces are located. If you're using a
-	// Network Address Translation (NAT) gateway for outbound internet access from
-	// your VPC, or if your WorkSpaces are in public subnets and you manually assign
-	// them Elastic IP addresses, you should disable this setting. This setting
-	// applies to new WorkSpaces that you launch or to existing WorkSpaces that
-	// you rebuild. For more information, see Configure a VPC for Amazon WorkSpaces
-	// (https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-vpc.html).
+	// Specifies whether to automatically assign an Elastic public IP address to
+	// WorkSpaces in this directory by default. If enabled, the Elastic public IP
+	// address allows outbound internet access from your WorkSpaces when you’re
+	// using an internet gateway in the Amazon VPC in which your WorkSpaces are
+	// located. If you're using a Network Address Translation (NAT) gateway for
+	// outbound internet access from your VPC, or if your WorkSpaces are in public
+	// subnets and you manually assign them Elastic IP addresses, you should disable
+	// this setting. This setting applies to new WorkSpaces that you launch or to
+	// existing WorkSpaces that you rebuild. For more information, see Configure
+	// a VPC for Amazon WorkSpaces (https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-vpc.html).
 	EnableInternetAccess *bool `type:"boolean"`
 
 	// Specifies whether maintenance mode is enabled for WorkSpaces. For more information,
@@ -5216,11 +5574,119 @@ func (s *DescribeWorkspaceDirectoriesOutput) SetNextToken(v string) *DescribeWor
 	return s
 }
 
+type DescribeWorkspaceImagePermissionsInput struct {
+	_ struct{} `type:"structure"`
+
+	// The identifier of the image.
+	//
+	// ImageId is a required field
+	ImageId *string `type:"string" required:"true"`
+
+	// The maximum number of items to return.
+	MaxResults *int64 `min:"1" type:"integer"`
+
+	// If you received a NextToken from a previous call that was paginated, provide
+	// this token to receive the next set of results.
+	NextToken *string `min:"1" type:"string"`
+}
+
+// String returns the string representation
+func (s DescribeWorkspaceImagePermissionsInput) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s DescribeWorkspaceImagePermissionsInput) GoString() string {
+	return s.String()
+}
+
+// Validate inspects the fields of the type to determine if they are valid.
+func (s *DescribeWorkspaceImagePermissionsInput) Validate() error {
+	invalidParams := request.ErrInvalidParams{Context: "DescribeWorkspaceImagePermissionsInput"}
+	if s.ImageId == nil {
+		invalidParams.Add(request.NewErrParamRequired("ImageId"))
+	}
+	if s.MaxResults != nil && *s.MaxResults < 1 {
+		invalidParams.Add(request.NewErrParamMinValue("MaxResults", 1))
+	}
+	if s.NextToken != nil && len(*s.NextToken) < 1 {
+		invalidParams.Add(request.NewErrParamMinLen("NextToken", 1))
+	}
+
+	if invalidParams.Len() > 0 {
+		return invalidParams
+	}
+	return nil
+}
+
+// SetImageId sets the ImageId field's value.
+func (s *DescribeWorkspaceImagePermissionsInput) SetImageId(v string) *DescribeWorkspaceImagePermissionsInput {
+	s.ImageId = &v
+	return s
+}
+
+// SetMaxResults sets the MaxResults field's value.
+func (s *DescribeWorkspaceImagePermissionsInput) SetMaxResults(v int64) *DescribeWorkspaceImagePermissionsInput {
+	s.MaxResults = &v
+	return s
+}
+
+// SetNextToken sets the NextToken field's value.
+func (s *DescribeWorkspaceImagePermissionsInput) SetNextToken(v string) *DescribeWorkspaceImagePermissionsInput {
+	s.NextToken = &v
+	return s
+}
+
+type DescribeWorkspaceImagePermissionsOutput struct {
+	_ struct{} `type:"structure"`
+
+	// The identifier of the image.
+	ImageId *string `type:"string"`
+
+	// The identifiers of the AWS accounts that the image has been shared with.
+	ImagePermissions []*ImagePermission `type:"list"`
+
+	// The token to use to retrieve the next set of results, or null if no more
+	// results are available.
+	NextToken *string `min:"1" type:"string"`
+}
+
+// String returns the string representation
+func (s DescribeWorkspaceImagePermissionsOutput) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s DescribeWorkspaceImagePermissionsOutput) GoString() string {
+	return s.String()
+}
+
+// SetImageId sets the ImageId field's value.
+func (s *DescribeWorkspaceImagePermissionsOutput) SetImageId(v string) *DescribeWorkspaceImagePermissionsOutput {
+	s.ImageId = &v
+	return s
+}
+
+// SetImagePermissions sets the ImagePermissions field's value.
+func (s *DescribeWorkspaceImagePermissionsOutput) SetImagePermissions(v []*ImagePermission) *DescribeWorkspaceImagePermissionsOutput {
+	s.ImagePermissions = v
+	return s
+}
+
+// SetNextToken sets the NextToken field's value.
+func (s *DescribeWorkspaceImagePermissionsOutput) SetNextToken(v string) *DescribeWorkspaceImagePermissionsOutput {
+	s.NextToken = &v
+	return s
+}
+
 type DescribeWorkspaceImagesInput struct {
 	_ struct{} `type:"structure"`
 
 	// The identifier of the image.
 	ImageIds []*string `min:"1" type:"list"`
+
+	// The type (owned or shared) of the image.
+	ImageType *string `type:"string" enum:"ImageType"`
 
 	// The maximum number of items to return.
 	MaxResults *int64 `min:"1" type:"integer"`
@@ -5262,6 +5728,12 @@ func (s *DescribeWorkspaceImagesInput) Validate() error {
 // SetImageIds sets the ImageIds field's value.
 func (s *DescribeWorkspaceImagesInput) SetImageIds(v []*string) *DescribeWorkspaceImagesInput {
 	s.ImageIds = v
+	return s
+}
+
+// SetImageType sets the ImageType field's value.
+func (s *DescribeWorkspaceImagesInput) SetImageType(v string) *DescribeWorkspaceImagesInput {
+	s.ImageType = &v
 	return s
 }
 
@@ -5759,6 +6231,31 @@ func (s *FailedWorkspaceChangeRequest) SetWorkspaceId(v string) *FailedWorkspace
 	return s
 }
 
+// Describes the AWS accounts that have been granted permission to use a shared
+// image.
+type ImagePermission struct {
+	_ struct{} `type:"structure"`
+
+	// The identifier of the AWS account that an image has been shared with.
+	SharedAccountId *string `type:"string"`
+}
+
+// String returns the string representation
+func (s ImagePermission) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ImagePermission) GoString() string {
+	return s.String()
+}
+
+// SetSharedAccountId sets the SharedAccountId field's value.
+func (s *ImagePermission) SetSharedAccountId(v string) *ImagePermission {
+	s.SharedAccountId = &v
+	return s
+}
+
 type ImportWorkspaceImageInput struct {
 	_ struct{} `type:"structure"`
 
@@ -5885,6 +6382,119 @@ func (s ImportWorkspaceImageOutput) GoString() string {
 func (s *ImportWorkspaceImageOutput) SetImageId(v string) *ImportWorkspaceImageOutput {
 	s.ImageId = &v
 	return s
+}
+
+// One or more parameter values are not valid.
+type InvalidParameterValuesException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	// The exception error message.
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s InvalidParameterValuesException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s InvalidParameterValuesException) GoString() string {
+	return s.String()
+}
+
+func newErrorInvalidParameterValuesException(v protocol.ResponseMetadata) error {
+	return &InvalidParameterValuesException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *InvalidParameterValuesException) Code() string {
+	return "InvalidParameterValuesException"
+}
+
+// Message returns the exception's message.
+func (s *InvalidParameterValuesException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *InvalidParameterValuesException) OrigErr() error {
+	return nil
+}
+
+func (s *InvalidParameterValuesException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *InvalidParameterValuesException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *InvalidParameterValuesException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// The state of the resource is not valid for this operation.
+type InvalidResourceStateException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s InvalidResourceStateException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s InvalidResourceStateException) GoString() string {
+	return s.String()
+}
+
+func newErrorInvalidResourceStateException(v protocol.ResponseMetadata) error {
+	return &InvalidResourceStateException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *InvalidResourceStateException) Code() string {
+	return "InvalidResourceStateException"
+}
+
+// Message returns the exception's message.
+func (s *InvalidResourceStateException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *InvalidResourceStateException) OrigErr() error {
+	return nil
+}
+
+func (s *InvalidResourceStateException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *InvalidResourceStateException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *InvalidResourceStateException) RequestID() string {
+	return s.RespMetadata.RequestID
 }
 
 // Describes an IP access control group.
@@ -6066,6 +6676,92 @@ func (s *ListAvailableManagementCidrRangesOutput) SetManagementCidrRanges(v []*s
 // SetNextToken sets the NextToken field's value.
 func (s *ListAvailableManagementCidrRangesOutput) SetNextToken(v string) *ListAvailableManagementCidrRangesOutput {
 	s.NextToken = &v
+	return s
+}
+
+type MigrateWorkspaceInput struct {
+	_ struct{} `type:"structure"`
+
+	// The identifier of the target bundle type to migrate the WorkSpace to.
+	//
+	// BundleId is a required field
+	BundleId *string `type:"string" required:"true"`
+
+	// The identifier of the WorkSpace to migrate from.
+	//
+	// SourceWorkspaceId is a required field
+	SourceWorkspaceId *string `type:"string" required:"true"`
+}
+
+// String returns the string representation
+func (s MigrateWorkspaceInput) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s MigrateWorkspaceInput) GoString() string {
+	return s.String()
+}
+
+// Validate inspects the fields of the type to determine if they are valid.
+func (s *MigrateWorkspaceInput) Validate() error {
+	invalidParams := request.ErrInvalidParams{Context: "MigrateWorkspaceInput"}
+	if s.BundleId == nil {
+		invalidParams.Add(request.NewErrParamRequired("BundleId"))
+	}
+	if s.SourceWorkspaceId == nil {
+		invalidParams.Add(request.NewErrParamRequired("SourceWorkspaceId"))
+	}
+
+	if invalidParams.Len() > 0 {
+		return invalidParams
+	}
+	return nil
+}
+
+// SetBundleId sets the BundleId field's value.
+func (s *MigrateWorkspaceInput) SetBundleId(v string) *MigrateWorkspaceInput {
+	s.BundleId = &v
+	return s
+}
+
+// SetSourceWorkspaceId sets the SourceWorkspaceId field's value.
+func (s *MigrateWorkspaceInput) SetSourceWorkspaceId(v string) *MigrateWorkspaceInput {
+	s.SourceWorkspaceId = &v
+	return s
+}
+
+type MigrateWorkspaceOutput struct {
+	_ struct{} `type:"structure"`
+
+	// The original identifier of the WorkSpace that is being migrated.
+	SourceWorkspaceId *string `type:"string"`
+
+	// The new identifier of the WorkSpace that is being migrated. If the migration
+	// does not succeed, the target WorkSpace ID will not be used, and the WorkSpace
+	// will still have the original WorkSpace ID.
+	TargetWorkspaceId *string `type:"string"`
+}
+
+// String returns the string representation
+func (s MigrateWorkspaceOutput) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s MigrateWorkspaceOutput) GoString() string {
+	return s.String()
+}
+
+// SetSourceWorkspaceId sets the SourceWorkspaceId field's value.
+func (s *MigrateWorkspaceOutput) SetSourceWorkspaceId(v string) *MigrateWorkspaceOutput {
+	s.SourceWorkspaceId = &v
+	return s
+}
+
+// SetTargetWorkspaceId sets the TargetWorkspaceId field's value.
+func (s *MigrateWorkspaceOutput) SetTargetWorkspaceId(v string) *MigrateWorkspaceOutput {
+	s.TargetWorkspaceId = &v
 	return s
 }
 
@@ -6590,6 +7286,119 @@ func (s *OperatingSystem) SetType(v string) *OperatingSystem {
 	return s
 }
 
+// The properties of this WorkSpace are currently being modified. Try again
+// in a moment.
+type OperationInProgressException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s OperationInProgressException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s OperationInProgressException) GoString() string {
+	return s.String()
+}
+
+func newErrorOperationInProgressException(v protocol.ResponseMetadata) error {
+	return &OperationInProgressException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *OperationInProgressException) Code() string {
+	return "OperationInProgressException"
+}
+
+// Message returns the exception's message.
+func (s *OperationInProgressException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *OperationInProgressException) OrigErr() error {
+	return nil
+}
+
+func (s *OperationInProgressException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *OperationInProgressException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *OperationInProgressException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// This operation is not supported.
+type OperationNotSupportedException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s OperationNotSupportedException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s OperationNotSupportedException) GoString() string {
+	return s.String()
+}
+
+func newErrorOperationNotSupportedException(v protocol.ResponseMetadata) error {
+	return &OperationNotSupportedException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *OperationNotSupportedException) Code() string {
+	return "OperationNotSupportedException"
+}
+
+// Message returns the exception's message.
+func (s *OperationNotSupportedException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *OperationNotSupportedException) OrigErr() error {
+	return nil
+}
+
+func (s *OperationNotSupportedException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *OperationNotSupportedException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *OperationNotSupportedException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
 // Describes the information used to reboot a WorkSpace.
 type RebootRequest struct {
 	_ struct{} `type:"structure"`
@@ -6945,6 +7754,351 @@ func (s RegisterWorkspaceDirectoryOutput) String() string {
 // GoString returns the string representation
 func (s RegisterWorkspaceDirectoryOutput) GoString() string {
 	return s.String()
+}
+
+// The specified resource already exists.
+type ResourceAlreadyExistsException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s ResourceAlreadyExistsException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ResourceAlreadyExistsException) GoString() string {
+	return s.String()
+}
+
+func newErrorResourceAlreadyExistsException(v protocol.ResponseMetadata) error {
+	return &ResourceAlreadyExistsException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *ResourceAlreadyExistsException) Code() string {
+	return "ResourceAlreadyExistsException"
+}
+
+// Message returns the exception's message.
+func (s *ResourceAlreadyExistsException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *ResourceAlreadyExistsException) OrigErr() error {
+	return nil
+}
+
+func (s *ResourceAlreadyExistsException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *ResourceAlreadyExistsException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *ResourceAlreadyExistsException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// The resource is associated with a directory.
+type ResourceAssociatedException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s ResourceAssociatedException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ResourceAssociatedException) GoString() string {
+	return s.String()
+}
+
+func newErrorResourceAssociatedException(v protocol.ResponseMetadata) error {
+	return &ResourceAssociatedException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *ResourceAssociatedException) Code() string {
+	return "ResourceAssociatedException"
+}
+
+// Message returns the exception's message.
+func (s *ResourceAssociatedException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *ResourceAssociatedException) OrigErr() error {
+	return nil
+}
+
+func (s *ResourceAssociatedException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *ResourceAssociatedException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *ResourceAssociatedException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// The resource could not be created.
+type ResourceCreationFailedException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s ResourceCreationFailedException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ResourceCreationFailedException) GoString() string {
+	return s.String()
+}
+
+func newErrorResourceCreationFailedException(v protocol.ResponseMetadata) error {
+	return &ResourceCreationFailedException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *ResourceCreationFailedException) Code() string {
+	return "ResourceCreationFailedException"
+}
+
+// Message returns the exception's message.
+func (s *ResourceCreationFailedException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *ResourceCreationFailedException) OrigErr() error {
+	return nil
+}
+
+func (s *ResourceCreationFailedException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *ResourceCreationFailedException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *ResourceCreationFailedException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// Your resource limits have been exceeded.
+type ResourceLimitExceededException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	// The exception error message.
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s ResourceLimitExceededException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ResourceLimitExceededException) GoString() string {
+	return s.String()
+}
+
+func newErrorResourceLimitExceededException(v protocol.ResponseMetadata) error {
+	return &ResourceLimitExceededException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *ResourceLimitExceededException) Code() string {
+	return "ResourceLimitExceededException"
+}
+
+// Message returns the exception's message.
+func (s *ResourceLimitExceededException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *ResourceLimitExceededException) OrigErr() error {
+	return nil
+}
+
+func (s *ResourceLimitExceededException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *ResourceLimitExceededException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *ResourceLimitExceededException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// The resource could not be found.
+type ResourceNotFoundException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	// The resource could not be found.
+	Message_ *string `locationName:"message" type:"string"`
+
+	// The ID of the resource that could not be found.
+	ResourceId *string `min:"1" type:"string"`
+}
+
+// String returns the string representation
+func (s ResourceNotFoundException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ResourceNotFoundException) GoString() string {
+	return s.String()
+}
+
+func newErrorResourceNotFoundException(v protocol.ResponseMetadata) error {
+	return &ResourceNotFoundException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *ResourceNotFoundException) Code() string {
+	return "ResourceNotFoundException"
+}
+
+// Message returns the exception's message.
+func (s *ResourceNotFoundException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *ResourceNotFoundException) OrigErr() error {
+	return nil
+}
+
+func (s *ResourceNotFoundException) Error() string {
+	return fmt.Sprintf("%s: %s\n%s", s.Code(), s.Message(), s.String())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *ResourceNotFoundException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *ResourceNotFoundException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// The specified resource is not available.
+type ResourceUnavailableException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	// The exception error message.
+	Message_ *string `locationName:"message" type:"string"`
+
+	// The identifier of the resource that is not available.
+	ResourceId *string `min:"1" type:"string"`
+}
+
+// String returns the string representation
+func (s ResourceUnavailableException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s ResourceUnavailableException) GoString() string {
+	return s.String()
+}
+
+func newErrorResourceUnavailableException(v protocol.ResponseMetadata) error {
+	return &ResourceUnavailableException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *ResourceUnavailableException) Code() string {
+	return "ResourceUnavailableException"
+}
+
+// Message returns the exception's message.
+func (s *ResourceUnavailableException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *ResourceUnavailableException) OrigErr() error {
+	return nil
+}
+
+func (s *ResourceUnavailableException) Error() string {
+	return fmt.Sprintf("%s: %s\n%s", s.Code(), s.Message(), s.String())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *ResourceUnavailableException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *ResourceUnavailableException) RequestID() string {
+	return s.RespMetadata.RequestID
 }
 
 type RestoreWorkspaceInput struct {
@@ -7517,6 +8671,123 @@ func (s *TerminateWorkspacesOutput) SetFailedRequests(v []*FailedWorkspaceChange
 	return s
 }
 
+// The configuration of this network is not supported for this operation, or
+// your network configuration conflicts with the Amazon WorkSpaces management
+// network IP range. For more information, see Configure a VPC for Amazon WorkSpaces
+// (https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-vpc.html).
+type UnsupportedNetworkConfigurationException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s UnsupportedNetworkConfigurationException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s UnsupportedNetworkConfigurationException) GoString() string {
+	return s.String()
+}
+
+func newErrorUnsupportedNetworkConfigurationException(v protocol.ResponseMetadata) error {
+	return &UnsupportedNetworkConfigurationException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *UnsupportedNetworkConfigurationException) Code() string {
+	return "UnsupportedNetworkConfigurationException"
+}
+
+// Message returns the exception's message.
+func (s *UnsupportedNetworkConfigurationException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *UnsupportedNetworkConfigurationException) OrigErr() error {
+	return nil
+}
+
+func (s *UnsupportedNetworkConfigurationException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *UnsupportedNetworkConfigurationException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *UnsupportedNetworkConfigurationException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
+// The configuration of this WorkSpace is not supported for this operation.
+// For more information, see Required Configuration and Service Components for
+// WorkSpaces (https://docs.aws.amazon.com/workspaces/latest/adminguide/required-service-components.html).
+type UnsupportedWorkspaceConfigurationException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s UnsupportedWorkspaceConfigurationException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s UnsupportedWorkspaceConfigurationException) GoString() string {
+	return s.String()
+}
+
+func newErrorUnsupportedWorkspaceConfigurationException(v protocol.ResponseMetadata) error {
+	return &UnsupportedWorkspaceConfigurationException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *UnsupportedWorkspaceConfigurationException) Code() string {
+	return "UnsupportedWorkspaceConfigurationException"
+}
+
+// Message returns the exception's message.
+func (s *UnsupportedWorkspaceConfigurationException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *UnsupportedWorkspaceConfigurationException) OrigErr() error {
+	return nil
+}
+
+func (s *UnsupportedWorkspaceConfigurationException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *UnsupportedWorkspaceConfigurationException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *UnsupportedWorkspaceConfigurationException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
 type UpdateRulesOfIpGroupInput struct {
 	_ struct{} `type:"structure"`
 
@@ -7580,6 +8851,87 @@ func (s UpdateRulesOfIpGroupOutput) String() string {
 
 // GoString returns the string representation
 func (s UpdateRulesOfIpGroupOutput) GoString() string {
+	return s.String()
+}
+
+type UpdateWorkspaceImagePermissionInput struct {
+	_ struct{} `type:"structure"`
+
+	// The permission to copy the image. This permission can be revoked only after
+	// an image has been shared.
+	//
+	// AllowCopyImage is a required field
+	AllowCopyImage *bool `type:"boolean" required:"true"`
+
+	// The identifier of the image.
+	//
+	// ImageId is a required field
+	ImageId *string `type:"string" required:"true"`
+
+	// The identifier of the AWS account to share or unshare the image with.
+	//
+	// SharedAccountId is a required field
+	SharedAccountId *string `type:"string" required:"true"`
+}
+
+// String returns the string representation
+func (s UpdateWorkspaceImagePermissionInput) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s UpdateWorkspaceImagePermissionInput) GoString() string {
+	return s.String()
+}
+
+// Validate inspects the fields of the type to determine if they are valid.
+func (s *UpdateWorkspaceImagePermissionInput) Validate() error {
+	invalidParams := request.ErrInvalidParams{Context: "UpdateWorkspaceImagePermissionInput"}
+	if s.AllowCopyImage == nil {
+		invalidParams.Add(request.NewErrParamRequired("AllowCopyImage"))
+	}
+	if s.ImageId == nil {
+		invalidParams.Add(request.NewErrParamRequired("ImageId"))
+	}
+	if s.SharedAccountId == nil {
+		invalidParams.Add(request.NewErrParamRequired("SharedAccountId"))
+	}
+
+	if invalidParams.Len() > 0 {
+		return invalidParams
+	}
+	return nil
+}
+
+// SetAllowCopyImage sets the AllowCopyImage field's value.
+func (s *UpdateWorkspaceImagePermissionInput) SetAllowCopyImage(v bool) *UpdateWorkspaceImagePermissionInput {
+	s.AllowCopyImage = &v
+	return s
+}
+
+// SetImageId sets the ImageId field's value.
+func (s *UpdateWorkspaceImagePermissionInput) SetImageId(v string) *UpdateWorkspaceImagePermissionInput {
+	s.ImageId = &v
+	return s
+}
+
+// SetSharedAccountId sets the SharedAccountId field's value.
+func (s *UpdateWorkspaceImagePermissionInput) SetSharedAccountId(v string) *UpdateWorkspaceImagePermissionInput {
+	s.SharedAccountId = &v
+	return s
+}
+
+type UpdateWorkspaceImagePermissionOutput struct {
+	_ struct{} `type:"structure"`
+}
+
+// String returns the string representation
+func (s UpdateWorkspaceImagePermissionOutput) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s UpdateWorkspaceImagePermissionOutput) GoString() string {
 	return s.String()
 }
 
@@ -7648,7 +9000,8 @@ type Workspace struct {
 	// Indicates whether the data stored on the user volume is encrypted.
 	UserVolumeEncryptionEnabled *bool `type:"boolean"`
 
-	// The KMS key used to encrypt data stored on your WorkSpace.
+	// The symmetric AWS KMS customer master key (CMK) used to encrypt data stored
+	// on your WorkSpace. Amazon WorkSpaces does not support asymmetric CMKs.
 	VolumeEncryptionKey *string `type:"string"`
 
 	// The identifier of the WorkSpace.
@@ -7856,6 +9209,12 @@ type WorkspaceBundle struct {
 	// A description.
 	Description *string `type:"string"`
 
+	// The image identifier of the bundle.
+	ImageId *string `type:"string"`
+
+	// The last time that the bundle was updated.
+	LastUpdatedTime *time.Time `type:"timestamp"`
+
 	// The name of the bundle.
 	Name *string `min:"1" type:"string"`
 
@@ -7895,6 +9254,18 @@ func (s *WorkspaceBundle) SetComputeType(v *ComputeType) *WorkspaceBundle {
 // SetDescription sets the Description field's value.
 func (s *WorkspaceBundle) SetDescription(v string) *WorkspaceBundle {
 	s.Description = &v
+	return s
+}
+
+// SetImageId sets the ImageId field's value.
+func (s *WorkspaceBundle) SetImageId(v string) *WorkspaceBundle {
+	s.ImageId = &v
+	return s
+}
+
+// SetLastUpdatedTime sets the LastUpdatedTime field's value.
+func (s *WorkspaceBundle) SetLastUpdatedTime(v time.Time) *WorkspaceBundle {
+	s.LastUpdatedTime = &v
 	return s
 }
 
@@ -8096,7 +9467,7 @@ type WorkspaceDirectory struct {
 	// see Bring Your Own Windows Desktop Images (https://docs.aws.amazon.com/workspaces/latest/adminguide/byol-windows-images.html).
 	Tenancy *string `type:"string" enum:"Tenancy"`
 
-	// The devices and operating systems that users can use to access Workspaces.
+	// The devices and operating systems that users can use to access WorkSpaces.
 	WorkspaceAccessProperties *WorkspaceAccessProperties `type:"structure"`
 
 	// The default creation properties for all WorkSpaces in the directory.
@@ -8216,6 +9587,11 @@ func (s *WorkspaceDirectory) SetWorkspaceSecurityGroupId(v string) *WorkspaceDir
 type WorkspaceImage struct {
 	_ struct{} `type:"structure"`
 
+	// The date when the image was created. If the image has been shared, the AWS
+	// account that the image has been shared with sees the original creation date
+	// of the image.
+	Created *time.Time `type:"timestamp"`
+
 	// The description of the image.
 	Description *string `min:"1" type:"string"`
 
@@ -8234,6 +9610,9 @@ type WorkspaceImage struct {
 	// The operating system that the image is running.
 	OperatingSystem *OperatingSystem `type:"structure"`
 
+	// The identifier of the AWS account that owns the image.
+	OwnerAccountId *string `type:"string"`
+
 	// Specifies whether the image is running on dedicated hardware. When Bring
 	// Your Own License (BYOL) is enabled, this value is set to DEDICATED. For more
 	// information, see Bring Your Own Windows Desktop Images (https://docs.aws.amazon.com/workspaces/latest/adminguide/byol-windows-images.html).
@@ -8251,6 +9630,12 @@ func (s WorkspaceImage) String() string {
 // GoString returns the string representation
 func (s WorkspaceImage) GoString() string {
 	return s.String()
+}
+
+// SetCreated sets the Created field's value.
+func (s *WorkspaceImage) SetCreated(v time.Time) *WorkspaceImage {
+	s.Created = &v
+	return s
 }
 
 // SetDescription sets the Description field's value.
@@ -8289,6 +9674,12 @@ func (s *WorkspaceImage) SetOperatingSystem(v *OperatingSystem) *WorkspaceImage 
 	return s
 }
 
+// SetOwnerAccountId sets the OwnerAccountId field's value.
+func (s *WorkspaceImage) SetOwnerAccountId(v string) *WorkspaceImage {
+	s.OwnerAccountId = &v
+	return s
+}
+
 // SetRequiredTenancy sets the RequiredTenancy field's value.
 func (s *WorkspaceImage) SetRequiredTenancy(v string) *WorkspaceImage {
 	s.RequiredTenancy = &v
@@ -8308,7 +9699,8 @@ type WorkspaceProperties struct {
 	// The compute type. For more information, see Amazon WorkSpaces Bundles (http://aws.amazon.com/workspaces/details/#Amazon_WorkSpaces_Bundles).
 	ComputeTypeName *string `type:"string" enum:"Compute"`
 
-	// The size of the root volume.
+	// The size of the root volume. For important information about how to modify
+	// the size of the root and user volumes, see Modify a WorkSpace (https://docs.aws.amazon.com/workspaces/latest/adminguide/modify-workspaces.html).
 	RootVolumeSizeGib *int64 `type:"integer"`
 
 	// The running mode. For more information, see Manage the WorkSpace Running
@@ -8319,7 +9711,8 @@ type WorkspaceProperties struct {
 	// Configured in 60-minute intervals.
 	RunningModeAutoStopTimeoutInMinutes *int64 `type:"integer"`
 
-	// The size of the user storage.
+	// The size of the user storage. For important information about how to modify
+	// the size of the root and user volumes, see Modify a WorkSpace (https://docs.aws.amazon.com/workspaces/latest/adminguide/modify-workspaces.html).
 	UserVolumeSizeGib *int64 `type:"integer"`
 }
 
@@ -8394,7 +9787,8 @@ type WorkspaceRequest struct {
 	// Indicates whether the data stored on the user volume is encrypted.
 	UserVolumeEncryptionEnabled *bool `type:"boolean"`
 
-	// The KMS key used to encrypt data stored on your WorkSpace.
+	// The symmetric AWS KMS customer master key (CMK) used to encrypt data stored
+	// on your WorkSpace. Amazon WorkSpaces does not support asymmetric CMKs.
 	VolumeEncryptionKey *string `type:"string"`
 
 	// The WorkSpace properties.
@@ -8494,6 +9888,65 @@ func (s *WorkspaceRequest) SetWorkspaceProperties(v *WorkspaceProperties) *Works
 	return s
 }
 
+// The workspaces_DefaultRole role could not be found. If this is the first
+// time you are registering a directory, you will need to create the workspaces_DefaultRole
+// role before you can register a directory. For more information, see Creating
+// the workspaces_DefaultRole Role (https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-access-control.html#create-default-role).
+type WorkspacesDefaultRoleNotFoundException struct {
+	_            struct{}                  `type:"structure"`
+	RespMetadata protocol.ResponseMetadata `json:"-" xml:"-"`
+
+	Message_ *string `locationName:"message" type:"string"`
+}
+
+// String returns the string representation
+func (s WorkspacesDefaultRoleNotFoundException) String() string {
+	return awsutil.Prettify(s)
+}
+
+// GoString returns the string representation
+func (s WorkspacesDefaultRoleNotFoundException) GoString() string {
+	return s.String()
+}
+
+func newErrorWorkspacesDefaultRoleNotFoundException(v protocol.ResponseMetadata) error {
+	return &WorkspacesDefaultRoleNotFoundException{
+		RespMetadata: v,
+	}
+}
+
+// Code returns the exception type name.
+func (s *WorkspacesDefaultRoleNotFoundException) Code() string {
+	return "WorkspacesDefaultRoleNotFoundException"
+}
+
+// Message returns the exception's message.
+func (s *WorkspacesDefaultRoleNotFoundException) Message() string {
+	if s.Message_ != nil {
+		return *s.Message_
+	}
+	return ""
+}
+
+// OrigErr always returns nil, satisfies awserr.Error interface.
+func (s *WorkspacesDefaultRoleNotFoundException) OrigErr() error {
+	return nil
+}
+
+func (s *WorkspacesDefaultRoleNotFoundException) Error() string {
+	return fmt.Sprintf("%s: %s", s.Code(), s.Message())
+}
+
+// Status code returns the HTTP status code for the request's response error.
+func (s *WorkspacesDefaultRoleNotFoundException) StatusCode() int {
+	return s.RespMetadata.StatusCode
+}
+
+// RequestID returns the service's response RequestID for request.
+func (s *WorkspacesDefaultRoleNotFoundException) RequestID() string {
+	return s.RespMetadata.RequestID
+}
+
 const (
 	// AccessPropertyValueAllow is a AccessPropertyValue enum value
 	AccessPropertyValueAllow = "ALLOW"
@@ -8558,6 +10011,14 @@ const (
 
 	// DedicatedTenancySupportResultEnumDisabled is a DedicatedTenancySupportResultEnum enum value
 	DedicatedTenancySupportResultEnumDisabled = "DISABLED"
+)
+
+const (
+	// ImageTypeOwned is a ImageType enum value
+	ImageTypeOwned = "OWNED"
+
+	// ImageTypeShared is a ImageType enum value
+	ImageTypeShared = "SHARED"
 )
 
 const (
