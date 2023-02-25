@@ -19,12 +19,9 @@ require (
 	github.com/kubernetes-sigs/aws-iam-authenticator v0.3.1-0.20181019024009-82544ec86140
 	github.com/mitchellh/copystructure v1.0.0
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pquerna/otp v1.2.0
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.5
-	k8s.io/apimachinery v0.0.0-20190204010555-a98ff070d70e // indirect
+	k8s.io/apimachinery v0.15.7 // indirect
 	k8s.io/client-go v10.0.0+incompatible // indirect
-	k8s.io/klog v0.1.0 // indirect
-	sigs.k8s.io/yaml v1.1.0 // indirect
 )
